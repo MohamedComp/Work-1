@@ -99,7 +99,7 @@ h1, h2, h3, h4,
 }
 /* ==================== Hero ==================== */
 .hero {
-  min-height: 52vh;
+  min-height: 100vh;
   display: flex;
   align-items: center;
   position: relative;
@@ -110,11 +110,11 @@ h1, h2, h3, h4,
   position: absolute;
   inset: 0;
   background:
-    linear-gradient(180deg, rgba(18,16,13,.55) 0%, rgba(18,16,13,.55) 30%, rgba(18,16,13,.96) 92%),
-    linear-gradient(90deg, rgba(18,16,13,.92) 0%, rgba(18,16,13,.35) 55%, rgba(18,16,13,.75) 100%),
-    url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0H76m8IJIEjciVKx4nH9-5R1-TU54IYZFrfreeJrPNQ&s=10") center 25%/cover;
+    linear-gradient(180deg, rgba(62, 58, 51, 0.55) 0%, rgba(27, 24, 20, 0.55) 30%, rgba(18,16,13,.96) 92%),
+    linear-gradient(90deg, rgba(63, 60, 54, 0.92) 0%, rgba(23, 21, 18, 0.35) 55%, rgba(18,16,13,.75) 100%),
+    url("images/image1.jpeg") center 25%/cover;
   z-index: -1;
-}/*https://images.unsplash.com/photo-1771072426713-dbf71396a859?fm=jpg&q=80&w=1800&auto=format&fit=crop*/
+}/*https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0H76m8IJIEjciVKx4nH9-5R1-TU54IYZFrfreeJrPNQ&s=10*/
 .hero-content {
   padding: 60px 24px;
 }
